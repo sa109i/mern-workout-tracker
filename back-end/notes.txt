@@ -1,0 +1,9 @@
+Model.create(doc) / creates and save a document
+
+Model.find(filter) / findOne() / findById(id)
+
+Model.updateOne(filter, update) / updateMany() / findOneAndUpdate(filter, update, options) / findByIdAndUpdate(id, update, options)
+
+Model.deleteOne(filter) / deleteMany(filter) / findOneAndDelete(filter) / findByIdAndDelete(id)
+
+Model.countDocuments(filter)
